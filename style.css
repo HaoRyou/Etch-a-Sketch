@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+
+}
+
+.Row {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.Column{
+    display: flex;
+    flex-direction: row;
+}
