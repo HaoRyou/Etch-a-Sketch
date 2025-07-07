@@ -5,11 +5,17 @@
 
 .Row {
     display: flex;
+    flex:1;
     flex-direction: column;
     gap: 1px;
 }
 
+.Row:hover {
+    background-color: lightblue;
+}
+
 .Column{
     display: flex;
+    flex:1;
     flex-direction: row;
 }
